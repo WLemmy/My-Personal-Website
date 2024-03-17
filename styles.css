@@ -35,4 +35,20 @@ section{
         font-weight: 700;
         }
         
-   
+        .nav_link {
+            margin: 0 4px;
+            text-decoration: none;
+            color: white;
+            font-weight: 700;
+        }
+        
+        .nav_link_button {
+            padding: 8px 12px;
+            border-radius: 9999px;
+            border: none;
+            color: red;
+            font-size: 16px;
+            background-color: white;
+            font-weight: 700;
+        }     
+    
