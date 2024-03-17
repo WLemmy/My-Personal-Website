@@ -4,3 +4,18 @@
     box-sizing: border-box;
     font-family: Roboto;
 }
+button{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+    
+section{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0% auto;
+    }
