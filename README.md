@@ -12,6 +12,7 @@ This is the repository for my personal website. It showcases my background infor
 - HTML5
 - CSS3
 - JavaScript
+
 #### Usage
 
 To view the website locally, follow these steps:
