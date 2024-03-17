@@ -165,3 +165,38 @@ section{
     align-items: center;
     justify-content: space-evenly;
 }
+/* Tablets */
+@media (max-width:768px){
+    .about_title,
+    .menu_title,
+    .contact_title{
+        font-size: 24px;
+    }
+    .about_paragraph,
+    .menu_paragraph{
+        font-size: 12px;
+    }
+}
+@media(max-width:480px){
+    .nav_link:not(:last-child){
+        display: none;
+    }
+    #about{
+        align-items: center;
+        flex-direction: column;
+    }
+    #menu{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .about_wrapper,
+    .menu_wrapper{
+        align-items: center;
+        text-align: center;
+    }
+    .about_image,
+    .menu_image{
+        width: 100%;
+    }
+
+}
